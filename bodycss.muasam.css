@@ -1,0 +1,483 @@
+.bodysite {
+  background-size: 100vw 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(231, 231, 231);
+  padding-top: 3rem;
+  padding-left: 10rem;
+  padding-right: 5rem;
+  position: relative;
+}
+/* CSS cho mục         Post review product */
+div.bodysite div.reviewProduct {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+div.bodysite div.reviewProduct img {
+  width: 30rem;
+  height: auto;
+  position: relative;
+  top: 5rem;
+}
+div.bodysite div.reviewProduct div.productDescription {
+  width: 50rem;
+  height: 90rem;
+  padding: 1rem 1rem 2rem 5rem;
+}
+div.bodysite div.reviewProduct div.productDescription h1 {
+  font-size: 2.5rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+div.bodysite div.reviewProduct div.productDescription h2 {
+  font-size: 2rem;
+}
+div.bodysite div.reviewProduct div.productDescription p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  margin: 1rem;
+}
+div.bodysite div.reviewProduct div.productDescription p.oldPrice {
+  font-size: 2rem;
+  color: rgb(124, 124, 124);
+  text-decoration: line-through;
+  display: inline;
+}
+div.bodysite div.reviewProduct div.productDescription p.newPrice {
+  font-size: 2rem;
+  display: inline;
+  color: #ff0000;
+}
+div.bodysite div.reviewProduct div.productDescription p.discount {
+  color: #ffffff;
+  background-color: #ff5e5e;
+  font-size: 2rem;
+  display: inline;
+  padding: 0.1rem 0.5rem;
+}
+div.bodysite div.reviewProduct div.productDescription li {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+/* CSS cho mục         Giải trí */
+div.bodysite div.bd-giaitri {
+  position: relative;
+}
+div.bodysite div.bd-giaitri a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ff3636;
+  line-height: 120%;
+  margin: 0.5rem;
+  border-radius: 100px;
+  padding: 0.5rem 1rem;
+}
+div.bodysite div.bd-giaitri a:hover {
+  background-color: rgb(87, 87, 255);
+  color: white;
+}
+/* CSS cho mục  GT-facebook */
+div.bodysite div.bd-giaitri div.GT-facebook {
+  padding-left: 1rem;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  position: relative;
+}
+div.bodysite div.bd-giaitri div.GT-facebook iframe {
+  border-radius: 8px;
+}
+div.bodysite div.bd-giaitri div.GT-facebook .fb-btn-next {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+}
+div.bodysite div.bd-giaitri div.GT-facebook .fb-btn-previous {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+div.bodysite div.bd-giaitri div.GT-facebook button:hover {
+  background-color: rgb(51, 42, 42);
+  color: white;
+}
+div.bodysite div.bd-giaitri div.GT-facebook .fb-logo img {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 100%;
+}
+/* CSS cho mục  GT-instagram */
+div.bodysite div.bd-giaitri div.GT-instagram {
+  padding-left: 1rem;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  position: relative;
+}
+div.bodysite div.bd-giaitri div.GT-instagram iframe {
+  border-radius: 8px;
+}
+div.bodysite div.bd-giaitri div.GT-instagram .ins-btn-next {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+}
+div.bodysite div.bd-giaitri div.GT-instagram .ins-btn-previous {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+div.bodysite div.bd-giaitri div.GT-instagram button:hover {
+  background-color: rgb(51, 42, 42);
+  color: white;
+}
+div.bodysite div.bd-giaitri div.GT-instagram .ins-logo img {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 100%;
+}
+
+/* CSS cho mục  GT-tiktok */
+div.bodysite div.bd-giaitri div.GT-tiktok {
+  padding-left: 1rem;
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid rgb(173, 173, 173);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  position: relative;
+}
+div.bodysite div.bd-giaitri div.GT-tiktok iframe {
+  border-radius: 8px;
+}
+div.bodysite div.bd-giaitri div.GT-tiktok .tiktok-btn-next {
+  position: absolute;
+  top: 6rem;
+  right: 1rem;
+  background-color: transparent;
+  border: none;
+}
+div.bodysite div.bd-giaitri div.GT-tiktok .tiktok-btn-previous {
+  position: absolute;
+  top: 6rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+div.bodysite div.bd-giaitri div.GT-tiktok button:hover {
+  background-color: rgb(51, 42, 42);
+  color: white;
+}
+div.bodysite div.bd-giaitri div.GT-tiktok .tiktok-logo img {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: transparent;
+  border: none;
+  border-radius: 100%;
+}
+/* CSS cho mục mua sắm */
+div.bd-muasam {
+  margin-top: 1rem;
+  position: absolute;
+  top: 3rem;
+  right: 7rem;
+}
+div.bd-muasam a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: #ff3636;
+  line-height: 120%;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+}
+div.bd-muasam a:hover {
+  background-color: rgb(87, 87, 255);
+  color: white;
+}
+div.bd-muasam div.tmdt-vietnam,
+div.bd-muasam div.tmdt-china {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem; */
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+div.bd-muasam div.tmdt-vietnam div.ms-shopee,
+div.bd-muasam div.tmdt-vietnam div.ms-lazada,
+div.bd-muasam div.tmdt-vietnam div.ms-sendo,
+div.bd-muasam div.tmdt-vietnam div.ms-tiki,
+div.bd-muasam div.tmdt-china div.ms-alibaba,
+div.bd-muasam div.tmdt-china div.ms-taobao,
+div.bd-muasam div.tmdt-china div.ms-1688 {
+  width: 30rem;
+  height: 11rem;
+  padding: 0.5rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem;
+  border: 1px solid rgb(161, 161, 161);
+  border-radius: 8px;
+  margin: 1rem;
+}
+div.bd-muasam div.tmdt-vietnam div.ms-shopee div.shopee-line1,
+div.bd-muasam div.tmdt-vietnam div.ms-lazada div.lazada-line1,
+div.bd-muasam div.tmdt-vietnam div.ms-sendo div.sendo-line1,
+div.bd-muasam div.tmdt-vietnam div.ms-tiki div.tiki-line1,
+div.bd-muasam div.tmdt-china div.ms-alibaba div.alibaba-line1,
+div.bd-muasam div.tmdt-china div.ms-taobao div.taobao-line1,
+div.bd-muasam div.tmdt-china div.ms-1688 div.ms-1688-line1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0rem;
+  overflow: hidden;
+  /* width: 45rem; */
+  height: auto;
+  /* margin-bottom: 0.5rem; */
+  margin-top: 0.2rem;
+}
+.sp-line1-1,
+.sp-line1-2,
+.sp-line1-3,
+.sp-line1-4,
+.sp-line1-5,
+.sp-line1-6,
+.lzd-line1-1,
+.lzd-line1-2,
+.lzd-line1-3,
+.lzd-line1-4,
+.lzd-line1-5,
+.lzd-line1-6,
+.sendo-line1-1,
+.sendo-line1-2,
+.sendo-line1-3,
+.sendo-line1-4,
+.sendo-line1-5,
+.sendo-line1-6,
+.tiki-line1-1,
+.tiki-line1-2,
+.tiki-line1-3,
+.tiki-line1-4,
+.tiki-line1-5,
+.tiki-line1-6,
+.alibaba-line1-1,
+.alibaba-line1-2,
+.alibaba-line1-3,
+.alibaba-line1-4,
+.alibaba-line1-5,
+.alibaba-line1-6,
+.taobao-line1-1,
+.taobao-line1-2,
+.taobao-line1-3,
+.taobao-line1-4,
+.taobao-line1-5,
+.taobao-line1-6,
+.ms-1688-line1-1,
+.ms-1688-line1-2,
+.ms-1688-line1-3,
+.ms-1688-line1-4,
+.ms-1688-line1-5,
+.ms-1688-line1-6 {
+  height: auto;
+  overflow: hidden;
+  display: inline;
+}
+.sp-line1-1 img,
+.sp-line1-2 img,
+.sp-line1-3 img,
+.sp-line1-4 img,
+.sp-line1-5 img,
+.sp-line1-6 img,
+.lzd-line1-1 img,
+.lzd-line1-2 img,
+.lzd-line1-3 img,
+.lzd-line1-4 img,
+.lzd-line1-5 img,
+.lzd-line1-6 img,
+.sendo-line1-1 img,
+.sendo-line1-2 img,
+.sendo-line1-3 img,
+.sendo-line1-4 img,
+.sendo-line1-5 img,
+.sendo-line1-6 img,
+.tiki-line1-1 img,
+.tiki-line1-2 img,
+.tiki-line1-3 img,
+.tiki-line1-4 img,
+.tiki-line1-5 img,
+.tiki-line1-6 img,
+.alibaba-line1-1 img,
+.alibaba-line1-2 img,
+.alibaba-line1-3 img,
+.alibaba-line1-4 img,
+.alibaba-line1-5 img,
+.alibaba-line1-6 img,
+.taobao-line1-1 img,
+.taobao-line1-2 img,
+.taobao-line1-3 img,
+.taobao-line1-4 img,
+.taobao-line1-5 img,
+.taobao-line1-6 img,
+.ms-1688-line1-1 img,
+.ms-1688-line1-2 img,
+.ms-1688-line1-3 img,
+.ms-1688-line1-4 img,
+.ms-1688-line1-5 img,
+.ms-1688-line1-6 img {
+  width: 5rem;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+
+div.bd-post {
+  /* padding: 0 4rem 0 9rem; */
+  display: flex;
+  justify-content: space-between;
+}
+/* div.bodysite div.bd-post2 {
+    display: flex;
+    justify-content: space-between;
+  } */
+div.bd-post div.post-dulich,
+div.bd-post div.post-suckhoe,
+div.bd-post div.post-food,
+div.bd-post div.post-khampha,
+div.bd-post div.post-taichinh,
+div.bd-post div.post-mmo {
+  width: 40rem;
+  height: 22rem;
+  border-radius: 8px;
+  border: none;
+  margin-top: 3rem;
+  padding: 1rem;
+  overflow: hidden;
+}
+div.bd-post div.post-dulich a,
+div.bd-post div.post-suckhoe a,
+div.bd-post div.post-food a,
+div.bd-post div.post-khampha a,
+div.bd-post div.post-taichinh a,
+div.bd-post div.post-mmo a {
+  background-color: transparent;
+  color: #ff3636;
+  line-height: 120%;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+  border-radius: 100px;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0 3rem 2rem;
+}
+div.bd-post div.post-dulich a:hover,
+div.bd-post div.post-suckhoe a:hover,
+div.bd-post div.post-food a:hover,
+div.bd-post div.post-khampha a:hover,
+div.bd-post div.post-taichinh a:hover,
+div.bd-post div.post-mmo a:hover {
+  background-color: rgb(87, 87, 255);
+  color: white;
+}
+div.bd-post div.post-dulich div.dl-post1,
+div.bd-post div.post-dulich div.dl-post2,
+div.bd-post div.post-dulich div.dl-post3,
+div.bd-post div.post-suckhoe div.sk-post1,
+div.bd-post div.post-suckhoe div.sk-post2,
+div.bd-post div.post-suckhoe div.sk-post3,
+div.bd-post div.post-food div.food-post1,
+div.bd-post div.post-food div.food-post2,
+div.bd-post div.post-food div.food-post3,
+div.bd-post div.post-khampha div.kp-post1,
+div.bd-post div.post-khampha div.kp-post2,
+div.bd-post div.post-khampha div.kp-post3,
+div.bd-post div.post-taichinh div.tc-post1,
+div.bd-post div.post-taichinh div.tc-post2,
+div.bd-post div.post-taichinh div.tc-post3,
+div.bd-post div.post-mmo div.mmo-post1,
+div.bd-post div.post-mmo div.mmo-post2,
+div.bd-post div.post-mmo div.mmo-post3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  border: 1px solid rgb(184, 184, 184);
+  border-radius: 8px;
+  padding: 1rem;
+  width: 38rem;
+  height: 18rem;
+}
+div.bd-post div.post-dulich div.dl-post1 img,
+div.bd-post div.post-dulich div.dl-post2 img,
+div.bd-post div.post-dulich div.dl-post3 img,
+div.bd-post div.post-suckhoe div.sk-post1 img,
+div.bd-post div.post-suckhoe div.sk-post2 img,
+div.bd-post div.post-suckhoe div.sk-post3 img,
+div.bd-post div.post-food div.food-post1 img,
+div.bd-post div.post-food div.food-post2 img,
+div.bd-post div.post-food div.food-post3 img,
+div.bd-post div.post-khampha div.kp-post1 img,
+div.bd-post div.post-khampha div.kp-post2 img,
+div.bd-post div.post-khampha div.kp-post3 img,
+div.bd-post div.post-taichinh div.tc-post1 img,
+div.bd-post div.post-taichinh div.tc-post2 img,
+div.bd-post div.post-taichinh div.tc-post3 img,
+div.bd-post div.post-mmo div.mmo-post1 img,
+div.bd-post div.post-mmo div.mmo-post2 img,
+div.bd-post div.post-mmo div.mmo-post3 img {
+  width: 15rem;
+  height: auto;
+}
+/* div.bd-post div.post-dulich div.dl-post1 h1,
+  div.bd-post div.post-dulich div.dl-post2 h1,
+  div.bd-post div.post-dulich div.dl-post3 h1,
+  div.bd-post div.post-suckhoe div.sk-post1 h1,
+  div.bd-post div.post-suckhoe div.sk-post2 h1,
+  div.bd-post div.post-suckhoe div.sk-post3 h1,
+  div.bd-post div.post-food div.food-post1 h1,
+  div.bd-post div.post-food div.food-post2 h1,
+  div.bd-post div.post-food div.food-post3 h1  */
+.post-content h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
